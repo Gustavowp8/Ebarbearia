@@ -116,3 +116,86 @@ body{
   #infoDois img{
     width: 50px;
   }
+
+  /* area popup */
+
+  #end{
+    display: none;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 10000;
+  }
+
+  #endDois{
+    background: #ffffff;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15%;
+    border: 1px solid rgba(0, 0, 0, 0.381);
+  }
+
+  #menuEnd{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  #fechar{
+    margin: .5rem;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+
+  #sT{
+    color: #ffffff00;
+  }
+
+  #dacor{
+    color: #ffffff;
+  }
+
+  #menuEnd a{
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  #endTres{
+    text-align: center;
+  }
+
+  #endTres h2{
+    margin-top: -5px;
+  }
+
+  #endTres p{
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  #maps{
+    margin-bottom: 10px;
+    background: black;
+    color: #ffffff;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  @media(max-width: 500px) {
+    #endDois{
+        background: #ffffff;
+        border-radius: 10px;
+        margin: 20px;
+        margin-top: 40%;
+      }
+  }

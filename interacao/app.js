@@ -24,4 +24,24 @@ function carregar(){
             msg.innerHTML = `Boa noite prezado cliente é uma grande satisfação ter você aqui.`
             //document.body.style.background = '#444444'
         }
-    }
+}
+
+function cChamaMapa(){
+    end.style.display='block'
+}
+
+function fFechaMaps(){
+    end.style.display='none'
+}
+
+function cMapa(){
+    alert('Localização indisponivel no momento!')
+}
+
+function agenda(){
+    alert('Agendamento online indisponivel no momento')
+}
+
+function aviso(){
+    alert('Link indisponivel')
+}

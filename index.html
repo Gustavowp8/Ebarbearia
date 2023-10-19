@@ -64,19 +64,19 @@
 
             <div id="infoDois">
 
-                <div>
+                <div onclick="aviso()">
                     <img src="icones/whatsapp.png">
                 </div>
 
-                <div>
+                <div onclick="aviso()">
                     <img src="icones/instagram.png">
                 </div>
 
-                <div>
+                <div onclick="cChamaMapa()">
                     <img src="icones/mapa.png">
                 </div>
 
-                <div>
+                <div onclick="agenda()">
                     <img src="icones/agenda.png">
                 </div>
 
@@ -86,6 +86,37 @@
 
         <!-- Area site -->
     </div>
+
+    <!-- Area popup -->
+
+    <div id="end">
+
+        <div id="endDois">
+
+            <div id="menuEnd">
+                <a id="sT" href="#">T</a>
+                <a id="dacor" href="#">Endereço</a>
+                <button id="fechar" onclick="fFechaMaps()">X</button>
+            </div> <br>
+
+            <div id="endTres">
+                <img src="icones/mapa.png">
+                <h2>Ficamos localizados</h2>
+
+                <p><b>Cidade:</b> Brasilia - DF</p>
+                <p><b>Bairro:</b> Santa Maria</p>
+                <p><b>Logradouro:</b> QR 203 SUL</p>
+                <p><b>Proximo ao: </b>Supermercado Vivendas</p>
+
+                <button id="maps" onclick="cMapa()">Ver no Google Maps</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Area popup -->
 
     <script src="interacao/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
