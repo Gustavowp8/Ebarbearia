@@ -19,7 +19,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    
+    z-index: 1000000;
 }
 
 #logoe{
@@ -189,6 +189,30 @@ body{
     padding: .5rem;
     border: 1px solid black;
     border-radius: 10px;
+  }
+
+  /*Preços e serviços*/
+
+  #servDois img{
+    width: 140px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  #servTres{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.035);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  #servTres:hover{
+    background: rgba(0, 0, 0, 0.176);
+  }
+
+  #servTres h2{
+    margin-top: -10px;
+    margin-bottom: -10px;
   }
 
   @media(max-width: 500px) {
