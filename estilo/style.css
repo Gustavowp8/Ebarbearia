@@ -91,3 +91,24 @@ body{
     object-fit: cover;
     border-radius: 10px;
   }
+
+  /* info */
+
+  #infoDois{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #infoDois > div{
+    flex: 1 1 90px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.035);
+    cursor: pointer;
+  }
+
+  #infoDois > div:hover{
+    background: rgba(0, 0, 0, 0.107);
+  }
