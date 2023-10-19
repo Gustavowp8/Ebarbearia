@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.189);
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+#logoe{
+    width: 110px;
+}
+
+#logos{
+    color: rgba(0, 255, 255, 0);
+}
+
+#sSite{
+    text-decoration: none;
+    background: #ffffff;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.189);
+    margin-right: 10px;
+}
+
+#areaSite{
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Boas vindas */
+
+#boasVindas{
+    display: flex;
+    align-items: center;
+}
+
+#boasVindas h3{
+    margin-bottom: -10px;
+}
+
+#areaTexto{
+    margin-left: 15px;
+}
