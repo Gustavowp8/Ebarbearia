@@ -100,7 +100,7 @@ body{
   }
 
   #infoDois > div{
-    flex: 1 1 90px;
+    flex: 1 1 80px;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -111,4 +111,8 @@ body{
 
   #infoDois > div:hover{
     background: rgba(0, 0, 0, 0.107);
+  }
+
+  #infoDois img{
+    width: 50px;
   }
