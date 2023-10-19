@@ -1,6 +1,8 @@
 function carregar(){
     var msg = window.document.getElementById('msg');
     var img = window.document.getElementById('imagem');
+
+    var bhora = window.document.getElementById('bHora');
     
         var data = new Date()
         var hora = data.getHours()
@@ -24,6 +26,7 @@ function carregar(){
             msg.innerHTML = `Boa noite prezado cliente é uma grande satisfação ter você aqui.`
             //document.body.style.background = '#444444'
         }
+        
 }
 
 function cChamaMapa(){
@@ -44,4 +47,12 @@ function agenda(){
 
 function aviso(){
     alert('Link indisponivel')
+}
+
+function whast(){
+    location = 'https://wa.me/5561981462200?text=Vim+pelo+site+quero+fazer+um+agendamento.'
+}
+
+function inst(){
+    location = 'https://instagram.com/emanuel_du_corte_?igshid=MzRlODBiNWFlZA=='
 }

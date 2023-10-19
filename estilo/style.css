@@ -215,6 +215,11 @@ body{
     margin-bottom: -10px;
   }
 
+  /* horario de funcionamento */
+  #estabelecimento{
+    text-align: center;
+  }
+
   @media(max-width: 500px) {
     #endDois{
         background: #ffffff;
