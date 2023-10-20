@@ -10,7 +10,7 @@ function carregar(){
         if(hora >= 0 && hora < 12)
         {
             //Bom dia
-            img.src = 'icones/dia.png'
+            img.src = 'icones/manha.png'
             msg.innerHTML = `Bom dia prezado cliente é uma grande satisfação ter você aqui.`
         } 
         else if(hora >= 12 && hora < 18)
